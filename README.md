@@ -1,10 +1,10 @@
 # chorefeatfix-zx
 [`google/zx`](https://github.com/google/zx) version of [`chorefeatfix`](https://github.com/redcarti/chorefeatfix), CLI app that will help you to create semantic commit messages
 
-# What to choose? `zx` or original version?
+## What to choose? `zx` or original version?
 Practically, they both are identical, but `zx` version is much better. You may use any version.
 
-## Lag
+### Lag
 Original version is lagging with `-a`/`--add` option, because of two commands being executed.
 
 `zx` version doesn't have this issue.
