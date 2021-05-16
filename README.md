@@ -11,16 +11,18 @@ Original version is lagging with `-a`/`--add` option, because of two commands be
 
 # Installing
 
+If you have installed original version, please delete it. It will conflict because of `cff` and `chorefeatfix` commands.
+
 ## `npm`
 
 ```console
-$ npm i https://github.com/redcarti/chorefeatfix -g
+$ npm i https://github.com/redcarti/chorefeatfix-zx -g
 ```
 
 ## `yarn`
 
 ```console
-$ yarn global add https://github.com/redcarti/chorefeatfix
+$ yarn global add https://github.com/redcarti/chorefeatfix-zx
 ```
 
 # Usage
