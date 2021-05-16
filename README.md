@@ -4,6 +4,11 @@
 # What to choose? `zx` or original version?
 Practically, they both are identical, but `zx` version is much better. You may use any version.
 
+## Lag
+Original version is lagging with `-a`/`--add` option, because of two commands being executed.
+
+`zx` version doesn't have this issue.
+
 # Installing
 
 ## `npm`
