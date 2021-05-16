@@ -1,0 +1,14 @@
+{
+  "name": "chorefeatfix-zx",
+  "version": "1.0.0",
+  "description": "google/zx version of chorefeatfix",
+  "main": "bin/index.mjs",
+  "repository": "https://github.com/redcarti/chorefeatfix-zx",
+  "author": "redcarti <ppamperr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "string-format-js": "^1.0.0",
+    "yargs": "^17.0.1",
+    "zx": "^1.6.0"
+  }
+}
