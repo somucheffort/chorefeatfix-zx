@@ -2,7 +2,7 @@
 [`google/zx`](https://github.com/google/zx) version of [`chorefeatfix`](https://github.com/redcarti/chorefeatfix), CLI app that will help you to create semantic commit messages
 
 # What to choose? `zx` or original version?
-Practically, they both are identical, but `zx` version is much better. You nay use any version.
+Practically, they both are identical, but `zx` version is much better. You may use any version.
 
 # Installing
 
