@@ -71,7 +71,7 @@ const cff = yargs(hideBin(process.argv))
     .option('add', {
         alias: 'a',
         type: 'boolean',
-        description: 'Perform `git add` command'
+        description: 'Perform `git add .` command'
     })
     .option('closes', {
         alias: ['close', 'c'],
