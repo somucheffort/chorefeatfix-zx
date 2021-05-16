@@ -11,7 +11,9 @@ import 'string-format-js'
 
 import shq from '../shq_noquotes.mjs'
 
-$.quote = shq
+// zx settings
+$.quote = shq           // command quoting
+$.verbose = false       // disables logging what command are being executed
 
 const cffPrefix = chalk.red.bgHex('#000000')('cff')
 const gitPrefix = chalk.white.bgHex('#000000')('git')
