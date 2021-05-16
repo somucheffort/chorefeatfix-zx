@@ -54,20 +54,13 @@ const commitYargs = (yargs) => {
     .required('message')
 }
 
-yargs(hideBin(process.argv))
+const cff = yargs(hideBin(process.argv))
     .scriptName('cff')
     .usage('Usage: $0 [options] <command>')
     .help('h')
     .alias('h', 'help')
     .epilog('by redcarti')
     .demandCommand()
-    .command('chore [message]', types['chore'], commitYargs, commitArgv)
-    .command('feat [message]', types['feat'], commitYargs, commitArgv)
-    .command('fix [message]', types['fix'], commitYargs, commitArgv)
-    .command('docs [message]', types['docs'], commitYargs, commitArgv)
-    .command('style [message]', types['style'], commitYargs, commitArgv)
-    .command('refactor [message]', types['refactor'], commitYargs, commitArgv)
-    .command('test [message]', types['test'], commitYargs, commitArgv)
     .option('scope', {
         alias: 's',
         type: 'string',
@@ -83,4 +76,10 @@ yargs(hideBin(process.argv))
         type: 'number',
         description: 'Close an issue'
     })
-    .argv
+
+Object.entries(types).forEach(([type, msg]) => {
+    cff
+    .command(type + ' [message]', msg, commitYargs, commitArgv)
+})
+    
+cff.argv
