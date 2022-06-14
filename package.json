@@ -9,7 +9,7 @@
   "dependencies": {
     "string-format-js": "^1.0.0",
     "yargs": "^17.0.1",
-    "zx": "^1.6.0"
+    "zx": "^6.2.5"
   },
   "bin": {
     "cff": "./bin/index.mjs",
